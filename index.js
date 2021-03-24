@@ -1,5 +1,5 @@
-function fn(customPromise) {
-	// return a new Promsie which resolves to + 1 of the resolved promise value
+function calculator(num1, num2, operation) {
+	// return a Promsie
 }
 
 module.exports = fn
