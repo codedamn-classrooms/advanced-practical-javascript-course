@@ -1,5 +1,5 @@
 function calculator(num1, num2, operation) {
-	// return a Promsie
+	// return a Promise
 }
 
-module.exports = fn
+module.exports = calculator
