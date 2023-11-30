@@ -1,1 +1,2 @@
-tabs: ['index.js']
+tabs: ["index.js"]
+run: node index.js
