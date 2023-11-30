@@ -11,6 +11,8 @@ async function fn(...promises) {
 module.exports = fn;
 
 // Sample Tests
-fn(Promise.resolve(2), Promise.resolve(4)).then((data) => console.log(data)); // should return [4,6,8]
+fn(Promise.resolve(2), Promise.resolve(3), Promise.resolve(4)).then((data) =>
+	console.log(data)
+); // should return [4,6,8]
 fn(Promise.resolve(2)).then((data) => console.log(data)); // should return [4]
 // fn(Promise.reject(), Promise.resolve(5)).then((data) => console.log(data)); // should throw an error
