@@ -1,1 +1,2 @@
 tabs: ['index.js']
+run-button: node index.js
